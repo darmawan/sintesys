@@ -1,0 +1,2 @@
+# sintesys
+CMS kanggo Sintesys
