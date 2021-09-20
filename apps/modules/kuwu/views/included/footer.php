@@ -31,7 +31,7 @@
 <script src="/assets/admin/js/jquery.isloading.min.js"></script>
 <script src="/assets/admin/js/functions.js"></script>
 <?php ($js != '') ? $this->load->view($js) : ''; ?>
-<!--[if IE 9 ]> <script src="../assets/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script> 
+<!--[if IE 9 ]> <script src="assets/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script> 
 <![endif]-->
 <script>
     /*<![CDATA[*/
