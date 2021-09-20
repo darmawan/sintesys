@@ -19,17 +19,17 @@
         <p>Please wait...</p>
     </div>
 </div>
-<script src="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/vendors/bower_components/jquery/dist/jquery.min.js"></script>
-<script src="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/js/jquery.mark.min.js"></script>
-<script src="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/vendors/bower_components/Waves/dist/waves.min.js"></script>
-<script src="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/vendors/bower_components/moment/min/moment.min.js"></script>
-<script src="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
-<script src="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js"></script>
-<script src="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/vendors/bower_components/slimscroll/jquery.slimscroll.min.js"></script>
-<script src="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/js/jquery.isloading.min.js"></script>
-<script src="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/js/functions.js"></script>
+<script src="/assets/admin/vendors/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/assets/admin/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/assets/admin/js/jquery.mark.min.js"></script>
+<script src="/assets/admin/vendors/bower_components/Waves/dist/waves.min.js"></script>
+<script src="/assets/admin/vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="/assets/admin/vendors/bower_components/moment/min/moment.min.js"></script>
+<script src="/assets/admin/vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+<script src="/assets/admin/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js"></script>
+<script src="/assets/admin/vendors/bower_components/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="/assets/admin/js/jquery.isloading.min.js"></script>
+<script src="/assets/admin/js/functions.js"></script>
 <?php ($js != '') ? $this->load->view($js) : ''; ?>
 <!--[if IE 9 ]> <script src="../assets/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script> 
 <![endif]-->

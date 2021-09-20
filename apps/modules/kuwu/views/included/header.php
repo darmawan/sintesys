@@ -11,15 +11,15 @@
     <!-- Vendor CSS -->
     <link rel="shortcut icon" href="<?php echo base_url(); ?>favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <!--<link href="../assets/admin/vendors/bower_components/mediaelement/build/mediaelementplayer.css" rel="stylesheet">-->
-    <!--<link href="../assets/admin/vendors/bower_components/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet">-->
-    <link href="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/vendors/bower_components/animate/animate.min.css" rel="stylesheet" type="text/css">
-    <link href="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.css" rel="stylesheet">
-    <link href="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet" type="text/css">
-    <link href="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+    <!--<link href="assets/admin/vendors/bower_components/mediaelement/build/mediaelementplayer.css" rel="stylesheet">-->
+    <!--<link href="assets/admin/vendors/bower_components/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet">-->
+    <link href="/assets/admin/vendors/bower_components/animate/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/admin/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.css" rel="stylesheet">
+    <link href="/assets/admin/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/admin/vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet">
     <?php ($css != '') ? $this->load->view($css) : ''; ?>
     <!-- CSS -->
-    <link href="<?php echo ($smenu=='profil')?'':'../';?>assets/admin/css/app.min.2.css" rel="stylesheet">
+    <link href="/assets/admin/css/app.min.2.css" rel="stylesheet">
     <!-- </head> -->
 </head>
 
